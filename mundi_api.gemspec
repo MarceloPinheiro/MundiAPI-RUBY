@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'mundi_api'
-  s.version = '2.4.5'
+  s.version = '3.0.0'
   s.summary = 'mundi_api'
   s.description = 'Mundipagg API'
   s.authors = ['APIMatic SDK Generator']
@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.add_dependency('test-unit', '~> 3.1', '>= 3.1.5')
   s.add_dependency('certifi', '~> 2016')
   s.add_dependency('faraday-http-cache', '~> 1.2', '>= 1.2.2')
-  s.required_ruby_version = '~> 2.0'
+  s.required_ruby_version = '~> 3.0'
   s.files = Dir['{bin,lib,man,test,spec}/**/*', 'README*', 'LICENSE*']
   s.require_paths = ['lib']
 end
